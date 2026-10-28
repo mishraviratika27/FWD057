@@ -1,0 +1,60 @@
+h1{
+    color: blue;
+    background-color: oldlace;
+    padding: 40px;
+    margin: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav
+{
+    font-size: large;
+    color: black;
+    background-color: skyblue;
+    font-display: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    text-align: center;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    text-align: left;
+    font-style: normal;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(6, 93, 127);
+    text-align: center;
+}
+.footer{
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h4{
+    text-align: end;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+h3{
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif
+    
+}
+form{
+    border: 2cm;
+    border-width: 0.5cm;
+    border-color: black;
+    box-sizing: border-box;
+        background-color: skyblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    text-align: center;
+    bo
+}
+body{
+    background-color: lightpink;
+}
