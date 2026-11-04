@@ -1,60 +1,318 @@
-h1{
-    color: blue;
-    background-color: oldlace;
-    padding: 40px;
-    margin: 20px;
+
+/*HOME PAGE*/
+
+header {
+	background-color: #0B2A5B; 
+	padding: 18px 50px;
+}
+
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.logo {
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+
+.nav-links {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+}
+
+
+.nav-links a {
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+
+.login-button {
+	background-color: white;
+	color: #0B2A5B !important;
+	padding: 9px 20px;
+	border-radius: 4px;
+	font-weight: bold;
+}
+
+.login-button:focus {
+	background-color: lightgray;
+}
+
+.hero {
+	min-height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.hero-text {
+	max-width: 650px;
+}
+
+
+.hero h1 {
+	font-size: 55px;
+	color: #0B2A5B;
+	margin-bottom: 10px;
+}
+
+
+.hero h2 {
+	font-size: 25px;
+	font-weight: normal;
+	color: #243B64;
+}
+
+
+.hero p {
+	font-size: 18px;
+	color: #555;
+	line-height: 1.6;
+}
+
+
+.hero-login {
+	display: inline-block;
+	margin-top: 20px;
+	padding: 12px 30px;
+	background-color: #0B2A5B;
+	color: white;
+	text-decoration: none;
+	border-radius: 4px;
+}
+
+.hero-login:hover {
+	background-color: #163D7A;
+}
+
+.why-hostelfix {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+    background-color: #F3F6FA;
 }
-nav
-{
-    font-size: large;
-    color: black;
-    background-color: skyblue;
-    font-display: auto;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 30px;
-    text-align: center;
+
+.why-hostelfix h2 {
+    color: #0B2A5B;
+    font-size: 30px;
 }
-h2{
-    font-family: Arial, Helvetica, sans-serif;
-    color: blue;
-    text-align: left;
-    font-style: normal;
+
+.why-hostelfix ul {
+    list-style: none;
+    padding: 0;
 }
-p{
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(6, 93, 127);
-    text-align: center;
+
+.why-hostelfix li {
+    margin: 12px;
+    font-size: 17px;
 }
-.footer{
-    text-align: right;
-    font-family: Arial, Helvetica, sans-serif;
-}
-h4{
-    text-align: end;
-    font-family: Arial, Helvetica, sans-serif;
 
 
 
+
+/* STAFF DASHBOARD */
+
+
+.staff-dashboard {
+	display: flex;
+	min-height: 90vh;
+	background-color: #f5f5ff
 }
-h3{
-    text-align: center;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif
-    
+
+/* Sidebar */
+
+.staff-sidebar {
+	width: 200px;
+	background-color: #17143b;
+	padding: 25px 20px;
+	box-sizing: border-box;
 }
-form{
-    border: 2cm;
-    border-width: 0.5cm;
-    border-color: black;
+
+.staff-sidebar h2 {
+	color: white;
+	font-size: 22px;
+	margin-bottom: 30px;
+}
+
+.staff-sidebar a {
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 12px;
+	margin-bottom: 10px;
+}
+
+.staff-sidebar a:hover {
+	background-color: #6554d9;
+}
+
+ .staff-sidebar a.active {
+	background-color: #6554d9;
+}
+
+
+/* MAIN CONTENT */
+
+.staff-content {
+	flex: 1;
+	padding: 30px;
+	min-width: 0;
+}
+
+.dashboard-heading p {
+	color: #555;
+}
+
+
+/* FORM */
+
+.form {
+	box-sizing: border-box;
+	padding: 20px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.form-select {
+	box-sizing: content-box;
+	margin: 20px 0px;
+}
+
+.form-checkbox {
+	display: flex;
+	gap: 20px;
+}
+
+.form-date {
+	display: flex;
+	gap: 20px;
+}
+
+/* STATISTICS CARDS */
+
+.stats-container {
+	display: flex;
+	gap: 20px;
+	margin: 30px 0;
+}
+
+
+
+/* COMPLAINTS TABLE */
+
+
+.complaints-section, .recent-section {
+	background-color: white;
+	padding: 25px;
+	margin-top: 25px;
+	overflow-x: auto;
+}
+
+
+.complaints-section table {
+	width: 100%;
+	border-collapse: collapse;
+	text-align: left;
+}
+
+
+.complaints-section h2, .recent-section h2 {
+	color: #17143b;
+	margin-top: 0;
+}
+
+.complaints-section th, .complaints-section td {
+	padding: 15px;
+	border-bottom: 1px solid #e5e5f0;
+}
+
+
+.complaints-section select {
+	padding: 8px;
+	border: 1px solid #ccc;
+	background-color: white;
+}
+
+.recent-section {
+    background-color: white;
+    padding: 25px;
+    margin-top: 25px;
     box-sizing: border-box;
-        background-color: skyblue;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: black;
-    text-align: center;
-    bo
 }
-body{
-    background-color: lightpink;
+
+.recent-section h2 {
+    margin-top: 0;
+    color: #17143b;
+}
+
+.recent-section p {
+    color: #555;
+    line-height: 1.6;
+}
+
+
+.staff-content {
+    min-width: 0;
+    overflow-wrap: break-word;
+}
+
+.complaints-section {
+    margin-bottom: 25px;
+}
+
+
+
+/* FOOTER */
+
+footer {
+	text-align: center;
+}
+
+
+
+/* SMALL SCREENS */
+
+@media (max-width: 900) {
+	.staff-dashboard {
+	flex-direction: column;
+}
+
+.staff-sidebar {
+	width: 100%;
+}
+
+.stats-container {
+	flex-wrap: wrap;
+}
+
+.stat-card {
+	flex-wrap: wrap;
+}
+
+.stat-card {
+	flex: 1 1 40%;
+}
+
+}
+
+
+@media (max-width: 500px) {
+	.staff-content {
+		padding: 15px;
+	}
+	.stats-container {
+		flex-direction: column;
+	}
 }
