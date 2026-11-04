@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>HostelFix | Manage Complaints</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+<header>
+<nav>
+    <div class="logo">HOSTELFIX</div>
+
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="index.html" class="login-button">Logout</a>
+    </div>
+</nav>
+</header>
+
+<main class="staff-dashboard">
+
+	<aside class="staff-sidebar">
+		<h2>Staff Panel</h2>
+
+		<a href="staff-dashboard.html">Dashboard</a>
+		<a href="manage-complaints.html" class="active">Manage Complaints</a>
+		<a href="recent.html">Recent Complaints</a>
+	</aside>
+
+<section class="staff-content">
+
+<div class="dashboard-heading">
+	<h1>Manage Complaints</h1>
+	<p>View and review complaints submitted by hostel residents.</p>
+</div>
+
+<div class="complaint-summary">
+	<div class="summary-card">
+	<h3>Total Complaints</h3>
+	<p>24</p>
+	</div>
+
+	<div class="summary-card">
+	<h3>In Progress</h3>
+	<p>10</p>
+	</div>
+
+	<div class="summary-card">
+	<h3>Resolved</h3>
+	<p>6</p>
+	</div>
+
+</div>
+
+
+<section class="complaints-section">
+
+	<h2>Manage Complaints</h2>
+
+	<p>Select category / location / Date / Priority / Status</p>
+
+<section class="form">
+	<form method="post">
+
+	<div class="form-select">
+	<label>Category: </label>
+	<select>
+		<option>Category</option>
+		<option>Electrical</option>
+		<option>Plumbing</option>
+		<option>Internet</option>
+		<option>Maintenance</option>
+		<option>Pest Control</option>
+	</select>
+	</div>
+
+	<div class="form-select">
+	<label>Priority: </label>
+	<select>
+		<option>High</option>
+		<option>Medium</option>
+		<option>Low</option>
+	</select>
+	</div>
+
+	<div class="form-select">
+	<label>Status: </label>
+	<select>
+		<option>In Progress</option>
+		<option>Pending</option>
+		<option>Resolved</option>
+	</select>
+	</div>
+
+	<br>
+
+	<div class="form-checkbox">
+	<label for="Location">Location: </label>
+	<input type="checkbox" id="Location" name="A">A Block
+	<input type="checkbox" id="Location" name="B">B Block
+	</div>
+
+	<br>
+
+	<div class="form-date">
+	<label for="Date">Select date: </label>
+	<input type="date" id="Date" name="Date registered" value="2026-10-27">
+	</div>
+
+
+	</form>
+
+</section>
+</section>
+
+
+<p class="demo-note">
+	Demonstration interface · Sample complaint records
+</p>
+
+</section>
+
+</main>
+
+<footer>
+    @SAU Hostel Facilities
+</footer>
+
+
+</body>
+
+</html>

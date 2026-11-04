@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>HostelFix | Recent complaints</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header> 
+        <nav>
+            <div class="logo">HOSTELFIX</div>
+            <div class="nav-links">
+                <a href="index.html">Index</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="index.html" class="login-button">Logout</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="staff-dashboard">
+        <aside class="staff-sidebar">
+            <h2>Staff Panel</h2>
+            <a href="staff-dashboard.html">Dashboard</a>
+            <a href="manage-complaints.html">Manage Complaints</a>
+            <a href="recent.html" class="active">Recents</a>
+        </aside>
+        
+        <section class="staff-content">
+            <div class="dashboard-heading">
+                <h1>Recent Complaints</h1>
+                <p>Recent complaints submitted by hostel residents.</p>
+            </div>
+
+        <section id="complaints" class="complaints-section">
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Complaint ID</th>
+                        <th>Category</th>
+                        <th>Location</th>
+                        <th>Date</th>
+                        <th>Priority</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>HF-001</td>
+	                    <td>Electrical</td>
+                    	<td>Block A</td>
+                    	<td>20 Oct 2026</td>
+                    	<td><span class="priority high">High</span></td>
+                    	<td><span class="status progress">In Progress</span></td>
+	                    <td><a class="view-button" href="complaint-details.html">View</a></td>
+                    </tr>
+
+                    <tr>
+	                    <td>HF-002</td>
+	                    <td>Plumbing</td>
+	                    <td>Block B</td>
+	                    <td>21 Oct 2026</td>
+	                    <td><span class="priority medium">Medium</span></td>
+                    	<td><span class="status pending">Pending</span></td>
+                    	<td><a class="view-button" href="complaint-details.html">View</a></td>
+                    </tr>
+
+                    <tr>
+	                    <td>HF-003</td>
+                    	<td>Internet</td>
+                    	<td>Block A</td>
+                    	<td>22 Oct 2026</td>
+                    	<td><span class="priority low">Low</span></td>
+	                    <td><span class="status resolved">Resolved</span></td>
+                    	<td><a class="view-button" href="complaint-details.html">View</a></td>
+                    </tr>
+
+                    <tr>
+	                    <td>HF-004</td>
+	                    <td>Maintenance</td>
+	                    <td>Block C</td>
+	                    <td>23 Oct 2026</td>
+	                    <td><span class="priority high">High</span></td>
+	                    <td><span class="status pending">Pending</span></td>
+	                    <td><a class="view-button" href="complaint-details.html">View</a></td>
+                    </tr>
+
+                    <tr>
+	                    <td>HF-005</td>
+	                    <td>Pest Control</td>
+	                    <td>Block B</td>
+	                    <td>24 Oct 2026</td>
+	                    <td><span class="priority medium">Medium</span></td>
+	                    <td><span class="status progress">In Progress</span></td>
+	                    <td><a class="view-button" href="complaint-details.html">View</a></td>
+                    </tr>
+
+                </tbody>
+            
+            </table>
+        </section>
+
+        <p class="demo-note">Sample complaint records</p>
+
+    </section>
+    </main>
+
+    <footer>
+        @SAU Hostel Facilities
+    </footer>
+
+</body>
+
+</html>
