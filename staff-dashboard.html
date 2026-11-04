@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HostelFix | Staff Dashboard</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<nav>
+	<div class="logo"> HOSTELFIX </div>
+	
+	<div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="index.html" class="login-button">Logout</a>
+    </div>
+	
+</nav>
+</header>
+
+<main class="staff-dashboard">
+	<aside class="staff-sidebar">
+		<h2>Staff Panel</h2>
+
+		<a href="staff-dashboard.html" class="active">Dashboard</a>
+		<a href="manage-complaints.html">Manage Complaints</a>
+		<a href="recent.html">Recent Complaints</a>
+	</aside>
+
+	<section class="staff-content">
+		<div class="dashboard-heading">
+		<h1>Staff Dashboard</h1>
+		<p>Welcome to the HostelFix complaint management system.</p>
+		</div>
+
+<div class="stats-container">
+
+	<div class="stat-card">
+	<h3>Total Complaints</h3>
+	<p>24</p>
+	</div>
+
+	<div class="stat-card">
+	<h3>In Progress</h3>
+	<p>6</p>
+	</div>
+
+</div>
+
+<section id="complaints" class="complaints-section">
+
+	<h2>Manage Complaints</h2>
+
+	<table>
+
+	<thead>
+	<tr>
+	<th>Complaint ID</th>
+	<th>Category</th>
+	<th>Location</th>
+	<th>Priority</th>
+	<th>Status</th>
+	</tr>
+	</thead>
+
+	<tbody>
+
+	<tr>
+	<td>HF-001</td>
+	<td>Electrical</td>
+	<td>Block A</td>
+	<td>High</td>
+	
+	<td>
+
+		<select>
+		<option>Pending</option>
+		<option selected>In Progress</option>
+		<option>Resolved</option>
+		</select>
+	</td>
+	</tr>
+
+	<tr>
+	<td>HF-002</td>
+	<td>Plumbing</td>
+	<td>Block B</td>
+	<td>Medium</td>
+	
+	<td>
+
+		<select>
+		<option>Pending</option>
+		<option>In Progress</option>
+		<option>Resolved</option>
+		</select>
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td>HF-003</td>
+	<td>Internet</td>
+	<td>Block A</td>
+	<td>Low</td>
+
+	<td>
+
+		<select>
+		<option>Pending</option>
+		<option>In Progress</option>
+		<option>Resolved</option>
+		</select>
+	</td>
+
+	</tr>
+
+	</tbody>
+
+	</table>
+
+</section>
+
+
+<section id="recent" class="recent-section">
+	<h2>Recent Activity</h2>
+	<p>Review complaints and update their status as work progresses.</p>
+</section>
+
+</main>
+
+<footer>
+	@SAU Hostel Facilities
+</footer>
+
+</body>
+
+</html>
+

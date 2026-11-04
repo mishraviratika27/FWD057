@@ -1,0 +1,355 @@
+header {
+	background-color: #0B2A5B; 
+	padding: 18px 50px;
+}
+
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.logo {
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+
+.nav-links {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+}
+
+
+.nav-links a {
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+
+.login-button {
+	background-color: white;
+	color: #0B2A5B !important;
+	padding: 9px 20px;
+	border-radius: 4px;
+	font-weight: bold;
+}
+
+
+.hero {
+	min-height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.hero-text {
+	max-width: 650px;
+}
+
+
+.hero h1 {
+	font-size: 55px;
+	color: #0B2A5B;
+	margin-bottom: 10px;
+}
+
+
+.hero h2 {
+	font-size: 25px;
+	font-weight: normal;
+	color: #243B64;
+}
+
+
+.hero p {
+	font-size: 18px;
+	color: #555;
+	line-height: 1.6;
+}
+
+
+.hero-login {
+	display: inline-block;
+	margin-top: 20px;
+	padding: 12px 30px;
+	background-color: #0B2A5B;
+	color: white;
+	text-decoration: none;
+	border-radius: 4px;
+}
+
+.hero-login:hover {
+	background-color: #163D7A;
+}
+
+.why-hostelfix {
+    text-align: center;
+    padding: 50px;
+    background-color: #F3F6FA;
+}
+
+.why-hostelfix h2 {
+    color:#0B2A5B ;
+    font-size: 30px;
+}
+
+.why-hostelfix ul {
+    list-style: none;
+    padding: 0;
+}
+
+.why-hostelfix li {
+    margin: 12px;
+    font-size: 17px;
+}
+
+/* FORM */
+
+.form {
+	box-sizing: border-box;
+	padding: 20px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.form-select {
+	box-sizing: content-box;
+	margin: 20px 0px;
+}
+
+.form-checkbox {
+	display: flex;
+	gap: 20px;
+}
+
+.form-date {
+	display: flex;
+	gap: 20px;
+}
+
+/* STATISTICS CARDS */
+
+
+/* FOOTER */
+
+footer {
+    background-color: #0B2A5B;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+footer h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+footer strong {
+    font-size: 18px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+footer h4 {
+    font-weight: normal;
+    margin: 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* REPORT FORM */
+
+#report {
+    text-align: center;
+    padding: 50px;
+    background-color: #F3F6FA;
+}
+
+#report h2 {
+    color: #0B2A5B;
+    font-size: 28px;
+}
+
+form {
+    background-color: white;
+    width: 400px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+form label {
+    color: #0B2A5B;
+    font-weight: bold;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    height: 100px;
+}
+
+form button {
+    background-color: #0B2A5B;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #163D7A;
+}
+     form {
+    max-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* MOBILE RESPONSIVE */
+
+@media screen and (max-width: 600px) {
+
+    header {
+        padding: 15px;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .logo {
+        font-size: 22px;
+    }
+
+    .hero {
+        min-height: 400px;
+        padding: 20px;
+    }
+
+    .hero h1 {
+        font-size: 35px;
+    }
+
+    .hero h2 {
+        font-size: 21px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .why-hostelfix {
+        padding: 25px 15px;
+    }
+
+    .why-hostelfix h2 {
+        font-size: 24px;
+    }
+
+    #report {
+        padding: 25px 15px;
+    }
+
+    form {
+        width: 100%;
+        padding: 20px;
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+}
+
+
+/* TABLET RESPONSIVE */
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+
+    header {
+        padding: 18px 25px;
+    }
+
+    .nav-links {
+        gap: 15px;
+    }
+
+    .hero h1 {
+        font-size: 45px;
+    }
+
+    .hero {
+        padding: 20px;
+    }
+
+    form {
+        max-width: 400px;
+        width: 100%;
+    }
+
+}
+
+
+#contact {
+    background-color: #0B2A5B;
+    color: white;
+    padding: 40px 20px;
+    width: 100%;
+    min-height: 50px;
+    box-sizing: border-box;
+    
+}
+
+.admin-div{
+    background-color:#F3F6FA ;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.admin{
+    background-color: #0B2A5B;
+    display: inline-block;
+    color: #F3F6FA;
+    align-items: center;
+}
+.admin a{
+    color: #F3F6FA;
+}
